@@ -9,6 +9,6 @@ entries:
     name: product-catalog
     type: application
     urls:
-    - https://gnunn1.github.io/helm-charts/product-catalog/product-catalog-0.1.0.tgz
+    - https://gnunn-gitops.github.io/helm-charts/product-catalog/product-catalog-0.1.0.tgz
     version: 0.1.0
 generated: "2020-10-23T18:44:57.15574107-07:00"
