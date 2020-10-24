@@ -3,7 +3,24 @@ entries:
   product-catalog:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-10-24T13:18:51.590732784-07:00"
+    created: "2020-10-24T13:35:48.676688678-07:00"
+    description: Deploys product catalog application. The product catalog application
+      is a 3-tier demo application for OpenShift with a React frontend, a Quarkus
+      backend and a MariaDB database.
+    digest: 310fe37bba6bf969e537dcefaa79d482b9e587d3ab67283f443b1eca7941a583
+    home: https://github.com/gnunn-gitops/product-catalog
+    icon: https://gnunn-gitops.github.io/helm-charts/product-catalog/product-catalog.png
+    kubeVersion: '>=1.14.6'
+    maintainers:
+    - name: Gerald Nunn
+    name: product-catalog
+    type: application
+    urls:
+    - https://gnunn-gitops.github.io/helm-charts/product-catalog/product-catalog-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2020-10-24T13:35:48.676163689-07:00"
     description: Deploys product catalog application. The product catalog application
       is a 3-tier demo application for OpenShift with a React frontend, a Quarkus
       backend and a MariaDB database.
@@ -18,42 +35,4 @@ entries:
     urls:
     - https://gnunn-gitops.github.io/helm-charts/product-catalog/product-catalog-0.1.3.tgz
     version: 0.1.3
-  - apiVersion: v2
-    appVersion: 1.0.0
-    created: "2020-10-24T13:18:51.563364068-07:00"
-    description: Deploys product catalog application. The product catalog application
-      is a 3-tier demo application for OpenShift with a React frontend, a Quarkus
-      backend and a MariaDB database.
-    digest: b3480b5ec45beac46573b064be80a8cf667cd0b2c51c36ca65f399975cd4e624
-    home: https://github.com/gnunn-gitops/product-catalog
-    icon: https://gnunn-gitops.github.io/helm-charts/product-catalog/product-catalog.png
-    kubeVersion: '>=1.14.6'
-    maintainers:
-    - name: Gerald Nunn
-    name: product-catalog
-    type: application
-    urls:
-    - https://gnunn-gitops.github.io/helm-charts/product-catalog/product-catalog-0.1.2.tgz
-    version: 0.1.2
-  - apiVersion: v2
-    appVersion: 1.0.0
-    created: "2020-10-24T13:18:51.562797047-07:00"
-    description: Deploys product catalog application into a namespace
-    digest: 4bf5889b91c53549f0baeca52414f0e9ce7860e575f087aa09ed372cf5e724f8
-    icon: https://gnunn-gitops.github.io/helm-charts/product-catalog/product-catalog.png
-    name: product-catalog
-    type: application
-    urls:
-    - https://gnunn-gitops.github.io/helm-charts/product-catalog/product-catalog-0.1.1.tgz
-    version: 0.1.1
-  - apiVersion: v2
-    appVersion: 1.0.0
-    created: "2020-10-24T13:18:51.562316514-07:00"
-    description: Deploys product catalog application into a namespace
-    digest: e0ed3281472d596ce9d1b8a060a059cb1ab4e6d8dcfa5dfe1ea369ead13413a8
-    name: product-catalog
-    type: application
-    urls:
-    - https://gnunn-gitops.github.io/helm-charts/product-catalog/product-catalog-0.1.0.tgz
-    version: 0.1.0
-generated: "2020-10-24T13:18:51.561685845-07:00"
+generated: "2020-10-24T13:35:48.675556472-07:00"
