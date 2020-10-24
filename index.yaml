@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  product-catalog:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2020-10-23T18:44:57.156266416-07:00"
+    description: Deploys product catalog application into a namespace
+    digest: e0ed3281472d596ce9d1b8a060a059cb1ab4e6d8dcfa5dfe1ea369ead13413a8
+    name: product-catalog
+    type: application
+    urls:
+    - https://gnunn1.github.io/helm-charts/product-catalog/product-catalog-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-10-23T18:44:57.15574107-07:00"
