@@ -5,7 +5,7 @@ entries:
     appVersion: 1.0.0
     created: "2020-10-24T13:03:59.246624081-07:00"
     description: Deploys product catalog application. The product catalog application
-      is a 3-tier demo application for OpenShift with a React rontend, a Quarkus
+      is a 3-tier demo application for OpenShift with a React frontend, a Quarkus
       backend and a MariaDB database.
     digest: b3480b5ec45beac46573b064be80a8cf667cd0b2c51c36ca65f399975cd4e624
     home: https://github.com/gnunn-gitops/product-catalog
