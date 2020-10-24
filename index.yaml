@@ -3,7 +3,18 @@ entries:
   product-catalog:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-10-23T18:44:57.156266416-07:00"
+    created: "2020-10-23T19:33:42.246914224-07:00"
+    description: Deploys product catalog application into a namespace
+    digest: 4bf5889b91c53549f0baeca52414f0e9ce7860e575f087aa09ed372cf5e724f8
+    icon: https://gnunn-gitops.github.io/helm-charts/product-catalog/product-catalog.png
+    name: product-catalog
+    type: application
+    urls:
+    - https://gnunn-gitops.github.io/helm-charts/product-catalog/product-catalog-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2020-10-23T19:33:42.246458131-07:00"
     description: Deploys product catalog application into a namespace
     digest: e0ed3281472d596ce9d1b8a060a059cb1ab4e6d8dcfa5dfe1ea369ead13413a8
     name: product-catalog
@@ -11,4 +22,4 @@ entries:
     urls:
     - https://gnunn-gitops.github.io/helm-charts/product-catalog/product-catalog-0.1.0.tgz
     version: 0.1.0
-generated: "2020-10-23T18:44:57.15574107-07:00"
+generated: "2020-10-23T19:33:42.245848409-07:00"
