@@ -2,11 +2,24 @@ apiVersion: v1
 entries:
   product-catalog:
   - apiVersion: v2
+    appVersion: 1.1.0
+    created: "2021-09-07T15:17:37.855732463-07:00"
+    description: Deploys product catalog application. The product catalog application is a 3-tier demo application for OpenShift with a React frontend, a Quarkus backend and a MariaDB database.
+    digest: b3407018d2eca59909bc6d548e0f01582233a2623f133d5120aca54966695a8b
+    home: https://github.com/gnunn-gitops/product-catalog
+    icon: https://gnunn-gitops.github.io/helm-charts/product-catalog/product-catalog.png
+    kubeVersion: '>=1.14.6'
+    maintainers:
+    - name: Gerald Nunn
+    name: product-catalog
+    type: application
+    urls:
+    - product-catalog/product-catalog-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-10-24T13:35:48.676688678-07:00"
-    description: Deploys product catalog application. The product catalog application
-      is a 3-tier demo application for OpenShift with a React frontend, a Quarkus
-      backend and a MariaDB database.
+    created: "2021-09-07T15:17:37.855395346-07:00"
+    description: Deploys product catalog application. The product catalog application is a 3-tier demo application for OpenShift with a React frontend, a Quarkus backend and a MariaDB database.
     digest: 310fe37bba6bf969e537dcefaa79d482b9e587d3ab67283f443b1eca7941a583
     home: https://github.com/gnunn-gitops/product-catalog
     icon: https://gnunn-gitops.github.io/helm-charts/product-catalog/product-catalog.png
@@ -16,14 +29,12 @@ entries:
     name: product-catalog
     type: application
     urls:
-    - https://gnunn-gitops.github.io/helm-charts/product-catalog/product-catalog-0.1.4.tgz
+    - product-catalog/product-catalog-0.1.4.tgz
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-10-24T13:35:48.676163689-07:00"
-    description: Deploys product catalog application. The product catalog application
-      is a 3-tier demo application for OpenShift with a React frontend, a Quarkus
-      backend and a MariaDB database.
+    created: "2021-09-07T15:17:37.855042505-07:00"
+    description: Deploys product catalog application. The product catalog application is a 3-tier demo application for OpenShift with a React frontend, a Quarkus backend and a MariaDB database.
     digest: 0c980a1c1187f13d3a911e79ee160ab1224da85191ad9c28d17f22e77f9f9174
     home: https://github.com/gnunn-gitops/product-catalog
     icon: https://gnunn-gitops.github.io/helm-charts/product-catalog/product-catalog.png
@@ -33,6 +44,6 @@ entries:
     name: product-catalog
     type: application
     urls:
-    - https://gnunn-gitops.github.io/helm-charts/product-catalog/product-catalog-0.1.3.tgz
+    - product-catalog/product-catalog-0.1.3.tgz
     version: 0.1.3
-generated: "2020-10-24T13:35:48.675556472-07:00"
+generated: "2021-09-07T15:17:37.854610418-07:00"
