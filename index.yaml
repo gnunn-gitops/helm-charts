@@ -2,7 +2,21 @@ apiVersion: v1
 entries:
   argocd-app-of-app:
   - apiVersion: v2
-    created: "2022-08-21T08:50:07.354294069-07:00"
+    created: "2022-08-21T09:12:03.053991647-07:00"
+    description: Generic chart for creating series of Argo CD Applications and AppProjects following the app-of-apps pattern
+    digest: 3c695a9e4665b1c22e923fe80cae66cf0c21320f92a21d9f0c91173fbfc9397e
+    kubeVersion: '>=1.14.6'
+    maintainers:
+    - name: Gerald Nunn
+    name: argocd-app-of-app
+    sources:
+    - https://github.com/gnunn-gitops/argocd-app-of-app-chart
+    type: application
+    urls:
+    - argocd-app-of-app/argocd-app-of-app-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v2
+    created: "2022-08-21T09:12:03.043358946-07:00"
     description: Generic chart for creating series of Argo CD Applications and AppProjects following the app-of-apps pattern
     digest: a54ea11f10a4a09000f5edca37a9a2abd809fbf1cf1267c4e922f6af139fc806
     kubeVersion: '>=1.14.6'
@@ -16,7 +30,7 @@ entries:
     - argocd-app-of-app/argocd-app-of-app-0.2.2.tgz
     version: 0.2.2
   - apiVersion: v2
-    created: "2022-08-21T08:50:07.351780468-07:00"
+    created: "2022-08-21T09:12:03.042029503-07:00"
     description: Generic chart for creating series of Argo CD Applications and AppProjects following the app-of-apps pattern
     digest: f62cbfb1e59cc28b206a95e501b0b466347c0e56fdeaa3fbbe7140fde1092b6e
     kubeVersion: '>=1.14.6'
@@ -30,7 +44,7 @@ entries:
     - argocd-app-of-app/argocd-app-of-app-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v2
-    created: "2022-08-21T08:50:07.347678575-07:00"
+    created: "2022-08-21T09:12:03.041325159-07:00"
     description: Generic chart for creating series of Argo CD Applications and AppProjects following the app-of-apps pattern
     digest: a213a0c61b9232e8462e9acbf74c8bc18b455bedf20524d41d7b5c3fd3e57599
     kubeVersion: '>=1.14.6'
@@ -44,7 +58,7 @@ entries:
     - argocd-app-of-app/argocd-app-of-app-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
-    created: "2022-08-21T08:50:07.345264307-07:00"
+    created: "2022-08-21T09:12:03.040391938-07:00"
     description: Generic chart for creating series of Argo CD Applications and AppProjects following the app-of-apps pattern
     digest: f05036b1e954185d8808b01a755f1926e060c4563831d261697684616ef9552c
     kubeVersion: '>=1.14.6'
@@ -58,7 +72,7 @@ entries:
     - argocd-app-of-app/argocd-app-of-app-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
-    created: "2022-08-21T08:50:07.342978693-07:00"
+    created: "2022-08-21T09:12:03.039776224-07:00"
     description: Generic chart for creating series of Argo CD Applications and AppProjects following the app-of-apps pattern
     digest: 3b011cdec64d199ca6d4e471be0def8c030b5811336d2ff5a0e254e1d8f77a31
     kubeVersion: '>=1.14.6'
@@ -74,7 +88,7 @@ entries:
   product-catalog:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2022-08-21T08:50:07.362035743-07:00"
+    created: "2022-08-21T09:12:03.057293595-07:00"
     description: Deploys product catalog application. The product catalog application is a 3-tier demo application for OpenShift with a React frontend, a Quarkus backend and a MariaDB database.
     digest: ef8a3846fb981885626a7b1fae6a441c718fbda2d02a36bdc5c29480b78c6831
     home: https://github.com/gnunn-gitops/product-catalog
@@ -89,7 +103,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2022-08-21T08:50:07.360315491-07:00"
+    created: "2022-08-21T09:12:03.056515948-07:00"
     description: Deploys product catalog application. The product catalog application is a 3-tier demo application for OpenShift with a React frontend, a Quarkus backend and a MariaDB database.
     digest: ee51eb6082171688be9b60f1ce66501c0770ce551375b394b57f7c520eb6a55f
     home: https://github.com/gnunn-gitops/product-catalog
@@ -104,7 +118,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2022-08-21T08:50:07.358911222-07:00"
+    created: "2022-08-21T09:12:03.055865408-07:00"
     description: Deploys product catalog application. The product catalog application is a 3-tier demo application for OpenShift with a React frontend, a Quarkus backend and a MariaDB database.
     digest: 5797cbd1d1192d19c8263acc25f664d07afb25eeb77fbcbf1a9cb1c91c34ed01
     home: https://github.com/gnunn-gitops/product-catalog
@@ -119,7 +133,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-08-21T08:50:07.357411907-07:00"
+    created: "2022-08-21T09:12:03.055187534-07:00"
     description: Deploys product catalog application. The product catalog application is a 3-tier demo application for OpenShift with a React frontend, a Quarkus backend and a MariaDB database.
     digest: 310fe37bba6bf969e537dcefaa79d482b9e587d3ab67283f443b1eca7941a583
     home: https://github.com/gnunn-gitops/product-catalog
@@ -134,7 +148,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-08-21T08:50:07.355963542-07:00"
+    created: "2022-08-21T09:12:03.054575073-07:00"
     description: Deploys product catalog application. The product catalog application is a 3-tier demo application for OpenShift with a React frontend, a Quarkus backend and a MariaDB database.
     digest: 0c980a1c1187f13d3a911e79ee160ab1224da85191ad9c28d17f22e77f9f9174
     home: https://github.com/gnunn-gitops/product-catalog
@@ -147,4 +161,4 @@ entries:
     urls:
     - product-catalog/product-catalog-0.1.3.tgz
     version: 0.1.3
-generated: "2022-08-21T08:50:07.305018794-07:00"
+generated: "2022-08-21T09:12:03.039040782-07:00"
