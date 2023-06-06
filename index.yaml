@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   argocd-app-of-app:
   - apiVersion: v2
-    created: "2023-05-01T17:14:53.398717241-07:00"
+    created: "2023-06-05T17:25:11.828574152-07:00"
     description: Generic chart for creating series of Argo CD Applications and AppProjects
       following the app-of-apps pattern
     digest: b6a1f9a7d981ef6ce9c8d9369bd80f9d7bea122cea7da592c9cfb60bb46a7f9f
@@ -17,7 +17,7 @@ entries:
     - argocd-app-of-app/argocd-app-of-app-0.2.6.tgz
     version: 0.2.6
   - apiVersion: v2
-    created: "2023-05-01T17:14:53.398052451-07:00"
+    created: "2023-06-05T17:25:11.827059871-07:00"
     description: Generic chart for creating series of Argo CD Applications and AppProjects
       following the app-of-apps pattern
     digest: 7775b733655c9c65948f73d52cfbc234f3eb04eda8aa159d86f9ba038d07f944
@@ -32,7 +32,7 @@ entries:
     - argocd-app-of-app/argocd-app-of-app-0.2.5.tgz
     version: 0.2.5
   - apiVersion: v2
-    created: "2023-05-01T17:14:53.397438711-07:00"
+    created: "2023-06-05T17:25:11.825717927-07:00"
     description: Generic chart for creating series of Argo CD Applications and AppProjects
       following the app-of-apps pattern
     digest: a000be5bc3a8620dc9847ccb1da56665947b2c90ce4972f871d3e9a3ad24c004
@@ -47,7 +47,7 @@ entries:
     - argocd-app-of-app/argocd-app-of-app-0.2.4.tgz
     version: 0.2.4
   - apiVersion: v2
-    created: "2023-05-01T17:14:53.396211578-07:00"
+    created: "2023-06-05T17:25:11.82399491-07:00"
     description: Generic chart for creating series of Argo CD Applications and AppProjects
       following the app-of-apps pattern
     digest: 3c695a9e4665b1c22e923fe80cae66cf0c21320f92a21d9f0c91173fbfc9397e
@@ -62,7 +62,7 @@ entries:
     - argocd-app-of-app/argocd-app-of-app-0.2.3.tgz
     version: 0.2.3
   - apiVersion: v2
-    created: "2023-05-01T17:14:53.395514034-07:00"
+    created: "2023-06-05T17:25:11.822299484-07:00"
     description: Generic chart for creating series of Argo CD Applications and AppProjects
       following the app-of-apps pattern
     digest: a54ea11f10a4a09000f5edca37a9a2abd809fbf1cf1267c4e922f6af139fc806
@@ -77,7 +77,7 @@ entries:
     - argocd-app-of-app/argocd-app-of-app-0.2.2.tgz
     version: 0.2.2
   - apiVersion: v2
-    created: "2023-05-01T17:14:53.3948323-07:00"
+    created: "2023-06-05T17:25:11.820307073-07:00"
     description: Generic chart for creating series of Argo CD Applications and AppProjects
       following the app-of-apps pattern
     digest: f62cbfb1e59cc28b206a95e501b0b466347c0e56fdeaa3fbbe7140fde1092b6e
@@ -92,7 +92,7 @@ entries:
     - argocd-app-of-app/argocd-app-of-app-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v2
-    created: "2023-05-01T17:14:53.39416532-07:00"
+    created: "2023-06-05T17:25:11.81833594-07:00"
     description: Generic chart for creating series of Argo CD Applications and AppProjects
       following the app-of-apps pattern
     digest: a213a0c61b9232e8462e9acbf74c8bc18b455bedf20524d41d7b5c3fd3e57599
@@ -107,7 +107,7 @@ entries:
     - argocd-app-of-app/argocd-app-of-app-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
-    created: "2023-05-01T17:14:53.393542115-07:00"
+    created: "2023-06-05T17:25:11.816578365-07:00"
     description: Generic chart for creating series of Argo CD Applications and AppProjects
       following the app-of-apps pattern
     digest: f05036b1e954185d8808b01a755f1926e060c4563831d261697684616ef9552c
@@ -122,7 +122,7 @@ entries:
     - argocd-app-of-app/argocd-app-of-app-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
-    created: "2023-05-01T17:14:53.392936842-07:00"
+    created: "2023-06-05T17:25:11.814861724-07:00"
     description: Generic chart for creating series of Argo CD Applications and AppProjects
       following the app-of-apps pattern
     digest: 3b011cdec64d199ca6d4e471be0def8c030b5811336d2ff5a0e254e1d8f77a31
@@ -136,9 +136,19 @@ entries:
     urls:
     - argocd-app-of-app/argocd-app-of-app-0.1.0.tgz
     version: 0.1.0
+  gitops-admin-plugin:
+  - apiVersion: v2
+    created: "2023-06-05T17:25:11.82908858-07:00"
+    description: GitOps Plugin for the OpenShift Console
+    digest: a604586e455750f41959e321f0dfb304c88c3376dd4e7e8f0f934ec0a27b48e2
+    name: gitops-admin-plugin
+    type: application
+    urls:
+    - gitops-admin-plugin/gitops-admin-plugin-0.1.0.tgz
+    version: 0.1.0
   openshift-console-plugin:
   - apiVersion: v2
-    created: "2023-05-01T17:14:53.410821079-07:00"
+    created: "2023-06-05T17:25:11.830693152-07:00"
     description: A Helm chart for Kubernetes
     digest: 04438299efb1ffe215460697cf69f2df9392b3f06badc2bbd1060383b8c4dd8e
     name: openshift-console-plugin
@@ -147,7 +157,7 @@ entries:
     - openshift-console-plugin/openshift-console-plugin-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
-    created: "2023-05-01T17:14:53.409635264-07:00"
+    created: "2023-06-05T17:25:11.830087854-07:00"
     description: A Helm chart for Kubernetes
     digest: efb7c2a94e4e81d8538cf05765b350279f56b5a6fd44eefe80312c311325f82e
     name: openshift-console-plugin
@@ -156,7 +166,7 @@ entries:
     - openshift-console-plugin/openshift-console-plugin-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
-    created: "2023-05-01T17:14:53.399033649-07:00"
+    created: "2023-06-05T17:25:11.829547737-07:00"
     description: A Helm chart for Kubernetes
     digest: ebad0733bb73537883e503965b6b4f89c39de10df1f38fb34e3837594d1bf468
     name: openshift-console-plugin
@@ -167,7 +177,7 @@ entries:
   product-catalog:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2023-05-01T17:14:53.417365535-07:00"
+    created: "2023-06-05T17:25:11.83625134-07:00"
     description: Deploys product catalog application. The product catalog application
       is a 3-tier demo application for OpenShift with a React frontend, a Quarkus
       backend and a MariaDB database.
@@ -184,7 +194,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2023-05-01T17:14:53.416394927-07:00"
+    created: "2023-06-05T17:25:11.835091476-07:00"
     description: Deploys product catalog application. The product catalog application
       is a 3-tier demo application for OpenShift with a React frontend, a Quarkus
       backend and a MariaDB database.
@@ -201,7 +211,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2023-05-01T17:14:53.415542488-07:00"
+    created: "2023-06-05T17:25:11.834143797-07:00"
     description: Deploys product catalog application. The product catalog application
       is a 3-tier demo application for OpenShift with a React frontend, a Quarkus
       backend and a MariaDB database.
@@ -218,7 +228,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-05-01T17:14:53.414638836-07:00"
+    created: "2023-06-05T17:25:11.833177729-07:00"
     description: Deploys product catalog application. The product catalog application
       is a 3-tier demo application for OpenShift with a React frontend, a Quarkus
       backend and a MariaDB database.
@@ -235,7 +245,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-05-01T17:14:53.41175002-07:00"
+    created: "2023-06-05T17:25:11.832281558-07:00"
     description: Deploys product catalog application. The product catalog application
       is a 3-tier demo application for OpenShift with a React frontend, a Quarkus
       backend and a MariaDB database.
@@ -250,4 +260,4 @@ entries:
     urls:
     - product-catalog/product-catalog-0.1.3.tgz
     version: 0.1.3
-generated: "2023-05-01T17:14:53.391248317-07:00"
+generated: "2023-06-05T17:25:11.801881051-07:00"
